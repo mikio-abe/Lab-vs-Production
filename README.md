@@ -18,7 +18,7 @@ This lab is designed for **concept verification and skill demonstration**, not p
 
 | Component | Lab | Production |
 |-----------|-----|------------|
-| **Site-to-Site (SASE)** | WireGuard (UDP 4960) | BGP over IPsec (Magic WAN等) |
+| **Site-to-Site (SASE)** | WireGuard (UDP 4960) | BGP over IPsec (Magic WAN) |
 | **ZTNA Topology** | POP as Aggregation Node | Direct WARP on Endpoints |
 | **MPLS Core** | PE direct connect | P routers + Route Reflectors |
 | **FortiGate License** | Evaluation (10 policy limit) | Full license |
