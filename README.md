@@ -95,8 +95,8 @@ CE1 ─── PE1 ─── P ─── P ─── PE2 ─── CE2
 
 | Limitation | Impact |
 |------------|--------|
-| 10 Firewall Policies | Policy統合が必要 |
-| Limited features | 一部機能制限 |
+| 10 Firewall Policies | Policy consolidation required |
+| Limited features | Some features restricted |
 
 Workaround: Combined policies using sdwan-zone instead of individual interfaces.
 
