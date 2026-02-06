@@ -4,17 +4,18 @@ Differences between this verification lab and production SASE/SD-WAN deployments
 
 ---
 
-## Overview
+## 🔬Overview
 
 This lab is designed for **concept verification and skill demonstration**, not production replication. Key simplifications were made to focus on overlay behavior rather than infrastructure scalability.
 
 **【日本語サマリ】**
 
-本ラボは概念検証とスキル実証を目的としており、本番環境の完全再現ではない。インフラのスケーラビリティではなく、Overlay動作の検証に焦点を当てている。
+本ラボは概念検証とスキル実証を目的としており、本番環境の完全再現ではありません。<BR>
+インフラのスケーラビリティではなく、Overlay動作の検証に焦点を当てています。
 
 ---
 
-## Comparison Summary
+## 📊Comparison Summary
 
 | Component | Lab | Production |
 |-----------|-----|------------|
@@ -27,7 +28,7 @@ This lab is designed for **concept verification and skill demonstration**, not p
 
 ---
 
-## Site-to-Site Connectivity
+## 🔗Site-to-Site Connectivity
 
 ### Lab: WireGuard
 
@@ -57,7 +58,7 @@ Site A ─── BGP over IPsec ─── Site B
 
 ---
 
-## MPLS Infrastructure
+## 🏗MPLS Infrastructure
 
 ### Lab: Simplified Topology
 
@@ -89,7 +90,7 @@ CE1 ─── PE1 ─── P ─── P ─── PE2 ─── CE2
 
 ---
 
-## FortiGate Configuration
+## 🔧FortiGate Configuration
 
 ### Lab: Evaluation License
 
@@ -112,7 +113,7 @@ Workaround: Combined policies using sdwan-zone instead of individual interfaces.
 
 ---
 
-## Brownout Simulation
+## ⚡Brownout Simulation
 
 ### Lab: Manual Injection
 
@@ -138,7 +139,7 @@ tc qdisc add dev eth0 root netem delay 300ms
 
 ---
 
-## Path Priority Design
+## 🔀Path Priority Design
 
 ### Lab: SASE Primary
 
@@ -164,7 +165,7 @@ MPLS typically preferred for enterprise traffic due to predictable performance.
 
 ---
 
-## ZTNA Topology
+## 🛡ZTNA Topology
 
 ### Lab: POP as Aggregation Node
 
@@ -204,7 +205,7 @@ FG (SD-WAN/Firewall)
 
 ---
 
-## What Transfers to Production
+## ✅What Transfers to Production
 
 Despite simplifications, the following skills and concepts transfer directly:
 
@@ -223,7 +224,7 @@ Despite simplifications, the following skills and concepts transfer directly:
 
 ---
 
-## Related Components
+## 🔗Related Components
 
 - [SASE-ZeroTrust](https://github.com/mikio-abe/SASE-ZeroTrust) - Security policy
 - [SD-WAN](https://github.com/mikio-abe/SD-WAN) - Path selection
