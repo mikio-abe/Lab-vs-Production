@@ -86,7 +86,7 @@ CE1 ─── PE1 ─── P ─── P ─── PE2 ─── CE2
 
 **【日本語サマリ】**
 
-ラボではPルータとRoute Reflectorを省略しPE直結構成。本番ではPルータでコアスケーラビリティ、RRでBGPスケーラビリティを確保。
+ラボではPルータとRoute Reflectorを省略しPE直結構成。本番環境ではPルータでコアスケーラビリティ、RRでBGPスケーラビリティを確保。
 
 ---
 
@@ -135,7 +135,7 @@ tc qdisc add dev eth0 root netem delay 300ms
 
 **【日本語サマリ】**
 
-ラボではtcコマンドで遅延を注入しBrownoutをシミュレート。本番ではISP輻輳、機器障害、物理的損傷等で自然発生。
+ラボではtcコマンドで遅延を注入しBrownoutをシミュレート。本番環境ではISP輻輳、機器障害、物理的損傷等で自然発生。
 
 ---
 
@@ -161,7 +161,7 @@ MPLS typically preferred for enterprise traffic due to predictable performance.
 
 **【日本語サマリ】**
 
-ラボではBrownoutデモのためSASEをプライマリに設定。本番では通常MPLSをプライマリとし、低遅延・SLA保証を活用。
+ラボではBrownoutデモのためSASEをプライマリに設定。本番環境では通常MPLSをプライマリとし、低遅延・SLA保証を活用。
 
 ---
 
