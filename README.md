@@ -34,7 +34,7 @@ This lab is designed for **concept verification and skill demonstration**, not p
 
 ```
 POP1 ─── WireGuard (UDP 4960) ─── POP2
-         Linux to Linux
+　　　　　　Linux to Linux
 ```
 
 - Linux POP cannot run BGP over IPsec natively
@@ -44,7 +44,7 @@ POP1 ─── WireGuard (UDP 4960) ─── POP2
 ### Production: BGP over IPsec
 
 ```
-Site A ─── BGP over IPsec ─── Site B
+Site A ────── BGP over IPsec ────── Site B
            (Magic WAN / Tunnel)
 ```
 
@@ -63,8 +63,8 @@ Site A ─── BGP over IPsec ─── Site B
 ### Lab: Simplified Topology
 
 ```
-CE1 ─── PE1 ═══════ PE2 ─── CE2
-        (direct connection)
+CE1 ────── PE1 ═══════ PE2 ────── CE2
+       　 (direct connection)
 ```
 
 - No P (Provider) routers
