@@ -54,7 +54,7 @@ Site A ────── BGP over IPsec ────── Site B
 
 **【日本語サマリ】**
 
-ラボではLinux POPでBGP over IPsecが使用できないためWireGuardで代替。本番ではMagic WAN等でBGP over IPsecを使用し、動的ルート交換を実現。
+ラボではLinux POPでBGP over IPsecが使用できないためWireGuardで代替。本番環境ではMagic WAN等でBGP over IPsecを使用し、動的ルート交換を実現。
 
 ---
 
